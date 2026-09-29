@@ -1,3 +1,8 @@
+/*
+Loads bronze tables with contents from the datasets.
+Change paths of files before use.
+
+*/
 create or replace procedure bronze.load_bronze() 
 language plpgsql
 as $$
